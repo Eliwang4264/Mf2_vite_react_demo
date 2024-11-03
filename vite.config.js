@@ -16,7 +16,7 @@ export default defineConfig({
       },
       remotes: {},
       shared: {
-        // react:{singleton: true} // If you comment this and restart the project, it will display normal  but console error always show
+        react:{singleton: true} // If you comment this and restart the project, it will display normal  but console error always show
       }
     })
   ],
